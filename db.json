@@ -1,0 +1,46 @@
+{
+  "customer": [
+    {
+      "name": "Jawan Smith",
+      "email": "JawanS@gmail.com",
+      "phone": "+241-839-0991",
+      "isActive": true,
+      "id": 1
+    },
+    {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (123) 456-7822",
+      "isActive": false,
+      "id": 2
+    },
+    {
+      "id": 4,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "phone": "+1 (345) 678-9012",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "Eve Brown",
+      "email": "eve.brown@example.com",
+      "phone": "+1 (456) 789-0123",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "Charlie Wilson",
+      "email": "charlie.wilson@example.com",
+      "phone": "+1 (567) 890-1234",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "Grace Davis",
+      "email": "grace.davis@example.com",
+      "phone": "+1 (678) 901-2345",
+      "active": true
+    }
+  ]
+}
