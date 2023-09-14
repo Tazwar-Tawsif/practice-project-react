@@ -7,6 +7,7 @@ import Home from './components/Home';
 import CustomerCreate from './components/CustomerCreate';
 import CustomerDetails from './components/CustomerDetails';
 import CustomerEdit from './components/CustomerEdit';
+import Error404 from './components/Error404';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Route path='/customer/create' Component={CustomerCreate} />
           <Route path='/customer/details/:cid' Component={CustomerDetails} />
           <Route path='/customer/edit/:cid' Component={CustomerEdit} />
+
+          <Route path="*" Component={Error404} />
         </Routes>
       </Router>
     </div>
